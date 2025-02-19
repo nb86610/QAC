@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Operadores</title>
+<meta name="GENERATOR" content="CodeCharge Studio 5.1.1.18992">
+<script language="JavaScript" type="text/javascript">
+//Begin CCS script
+//Include Common JSFunctions @1-26921566
+</script>
+<script src="ClientI18N.asp?file=Globalize.js&amp;locale={res:CCS_LocaleID}" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+//End Include Common JSFunctions
+
+//Include User Scripts @1-C5DB2D59
+</script>
+<link rel="stylesheet" type="text/css" href="Styles/Blueprint/ccs-jquery-ui-calendar.css">
+{page:scriptIncludes}
+<script type="text/javascript">
+//End Include User Scripts
+
+//End CCS script
+</script>
+<link rel="stylesheet" type="text/css" href="Styles/Blueprint/Style_doctype.css">
+<link rel="stylesheet" type="text/css" href="Styles/Blueprint/jquery-ui.css">
+</head>
+<body>
+<!-- BEGIN EditableGrid Operadores1 -->
+<form id="Operadores1" method="post" name="{HTMLFormName}" action="{Action}">
+  <input type="hidden" value="{FormState}" name="FormState">{FormScript} 
+  <table class="MainTable" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+      <td valign="top">
+        <table class="Header" cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td class="HeaderLeft"><img alt="" src="Styles/Blueprint/Images/Spacer.gif"></td> 
+            <td class="th"><strong>Operadores </strong></td> 
+            <td class="HeaderRight"><img alt="" src="Styles/Blueprint/Images/Spacer.gif"></td>
+          </tr>
+        </table>
+ 
+        <table class="Grid" cellspacing="0" cellpadding="0">
+          <!-- BEGIN Error -->
+          <tr class="Error">
+            <td colspan="7">{Error}</td>
+          </tr>
+          <!-- END Error -->
+          <tr class="Caption">
+            <th scope="col">
+            <!-- BEGIN Sorter Sorter_MN --><span class="Sorter"><a href="{Sort_URL}" id="Operadores1Sorter_MN">MN</a> 
+            <!-- BEGIN Asc_On --><img alt="Ascendente" src="Styles/Blueprint/Images/Asc.gif"><!-- END Asc_On -->
+            <!-- BEGIN Desc_On --><img alt="Descendente" src="Styles/Blueprint/Images/Desc.gif"><!-- END Desc_On --></span><!-- END Sorter Sorter_MN --></th>
+ 
+            <th scope="col">
+            <!-- BEGIN Sorter Sorter_Funcion --><span class="Sorter"><a href="{Sort_URL}" id="Operadores1Sorter_Funcion">Funcion</a> 
+            <!-- BEGIN Asc_On --><img alt="Ascendente" src="Styles/Blueprint/Images/Asc.gif"><!-- END Asc_On -->
+            <!-- BEGIN Desc_On --><img alt="Descendente" src="Styles/Blueprint/Images/Desc.gif"><!-- END Desc_On --></span><!-- END Sorter Sorter_Funcion --></th>
+ 
+            <th scope="col">
+            <!-- BEGIN Sorter Sorter_Privilegios --><span class="Sorter"><a href="{Sort_URL}" id="Operadores1Sorter_Privilegios">Privilegios</a> 
+            <!-- BEGIN Asc_On --><img alt="Ascendente" src="Styles/Blueprint/Images/Asc.gif"><!-- END Asc_On -->
+            <!-- BEGIN Desc_On --><img alt="Descendente" src="Styles/Blueprint/Images/Desc.gif"><!-- END Desc_On --></span><!-- END Sorter Sorter_Privilegios --></th>
+ 
+            <th scope="col">
+            <!-- BEGIN Sorter Sorter_Planta --><span class="Sorter"><a href="{Sort_URL}" id="Operadores1Sorter_Planta">Planta</a> 
+            <!-- BEGIN Asc_On --><img alt="Ascendente" src="Styles/Blueprint/Images/Asc.gif"><!-- END Asc_On -->
+            <!-- BEGIN Desc_On --><img alt="Descendente" src="Styles/Blueprint/Images/Desc.gif"><!-- END Desc_On --></span><!-- END Sorter Sorter_Planta --></th>
+ 
+            <th scope="col">
+            <!-- BEGIN Sorter Sorter_Email --><span class="Sorter"><a href="{Sort_URL}" id="Operadores1Sorter_Email">Email</a> 
+            <!-- BEGIN Asc_On --><img alt="Ascendente" src="Styles/Blueprint/Images/Asc.gif"><!-- END Asc_On -->
+            <!-- BEGIN Desc_On --><img alt="Descendente" src="Styles/Blueprint/Images/Desc.gif"><!-- END Desc_On --></span><!-- END Sorter Sorter_Email --></th>
+ 
+            <th scope="col">
+            <!-- BEGIN Sorter Sorter_Activo --><span class="Sorter"><a href="{Sort_URL}" id="Operadores1Sorter_Activo">Activo</a> 
+            <!-- BEGIN Asc_On --><img alt="Ascendente" src="Styles/Blueprint/Images/Asc.gif"><!-- END Asc_On -->
+            <!-- BEGIN Desc_On --><img alt="Descendente" src="Styles/Blueprint/Images/Desc.gif"><!-- END Desc_On --></span><!-- END Sorter Sorter_Activo --></th>
+ 
+            <th scope="col">Borrar</th>
+          </tr>
+ 
+          <!-- BEGIN Row -->
+          <!-- BEGIN RowError -->
+          <tr class="Error">
+            <td colspan="7">{Error}</td>
+          </tr>
+          <!-- END RowError -->
+          <tr class="Row">
+            <td>{MN}</td> 
+            <td><label style="display: none;" for="Operadores1Funcion_{Operadores1:rowNumber}">Funcion</label><input type="text" id="Operadores1Funcion_{Operadores1:rowNumber}" maxlength="250" size="50" value="{Funcion}" name="{Funcion_Name}"></td> 
+            <td><label style="display: none;" for="Operadores1Privilegios_{Operadores1:rowNumber}">Privilegios</label><input type="text" id="Operadores1Privilegios_{Operadores1:rowNumber}" maxlength="3" size="3" value="{Privilegios}" name="{Privilegios_Name}"></td> 
+            <td><label style="display: none;" for="Operadores1Planta_{Operadores1:rowNumber}">Planta</label><input type="text" id="Operadores1Planta_{Operadores1:rowNumber}" maxlength="250" size="50" value="{Planta}" name="{Planta_Name}"></td> 
+            <td><label style="display: none;" for="Operadores1Email_{Operadores1:rowNumber}">Email</label><input type="text" id="Operadores1Email_{Operadores1:rowNumber}" maxlength="250" size="50" value="{Email}" name="{Email_Name}"></td> 
+            <td><label style="display: none;" for="Operadores1Activo_{Operadores1:rowNumber}">Activo</label><input type="checkbox" id="Operadores1Activo_{Operadores1:rowNumber}" value="1" name="{Activo_Name}" {Activo}></td> 
+            <td>
+              <!-- BEGIN Panel CheckBox_Delete_Panel --><label style="display: none;" for="Operadores1CheckBox_Delete_PanelCheckBox_Delete_{Operadores1:rowNumber}">Borrar</label> 
+              <!-- BEGIN CheckBox CheckBox_Delete --><input type="checkbox" id="Operadores1CheckBox_Delete_PanelCheckBox_Delete_{Operadores1:rowNumber}" value="1" name="{CheckBox_Delete_Name}" {CheckBox_Delete}><!-- END CheckBox CheckBox_Delete --><!-- END Panel CheckBox_Delete_Panel -->&nbsp;</td>
+          </tr>
+ <!-- END Row -->
+          <!-- BEGIN Separator -->
+          <tr class="Separator">
+            <td colspan="7"></td>
+          </tr>
+          <!-- END Separator -->
+          <!-- BEGIN NoRecords -->
+          <tr class="NoRecords">
+            <td colspan="7">No hay registros</td>
+          </tr>
+          <!-- END NoRecords -->
+          <tr class="Footer">
+            <td style="TEXT-ALIGN: right" colspan="7">
+              <!-- BEGIN Navigator Navigator --><span class="Navigator">Registro por página 
+              <select style="VERTICAL-ALIGN: middle" name="{FormName}PageSize" data-grid-size="{FormName}">
+                <option selected value="">-</option>
+ {PageSize_Options}
+              </select>
+ 
+              <!-- BEGIN Prev_On --><a href="{Prev_URL}"><img alt="{Prev_URL}" src="Styles/Blueprint/Images/es/ButtonPrev.gif"></a> <!-- END Prev_On -->
+              <!-- BEGIN Prev_Off --><img alt="{Prev_URL}" src="Styles/Blueprint/Images/es/ButtonPrevOff.gif"><!-- END Prev_Off -->
+              <!-- BEGIN Next_On --><a href="{Next_URL}"><img alt="{Next_URL}" src="Styles/Blueprint/Images/es/ButtonNext.gif"></a> <!-- END Next_On -->
+              <!-- BEGIN Next_Off --><img alt="{Next_URL}" src="Styles/Blueprint/Images/es/ButtonNextOff.gif"><!-- END Next_Off --></span><!-- END Navigator Navigator -->
+              <!-- BEGIN Button Button_Submit --><input type="submit" id="Operadores1Button_Submit" class="Button" alt="Enviar" value="Enviar" name="{Button_Name}"><!-- END Button Button_Submit --></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</form>
+<!-- END EditableGrid Operadores1 --><br>
+<br>
+</body>
+</html>
